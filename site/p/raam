@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>/now profile: Raam Dev</title>
+  <style type="text/css">
+body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
+h1, h2, small { font-family: sans-serif; color: #900; }
+small { display: block; font-size: 0.8em; margin-bottom: 1em;}
+ul { margin: 0; padding: 0; }
+li { list-style-type: none; margin-bottom: 0.75em; }
+  </style>
+</head>
+<body>
+<section id="content">
+<h1>Raam Dev</h1>
+
+<h2><a href="/">/now</a>: <a href="https://raam.org/now">raam.org/now</a></h2>
+
+<h2>Location:</h2>
+<p>
+Nomadic
+NY
+United States
+</p>
+
+<h2>Professional title:</h2>
+<p>
+Lead Developer at WebSharks, Inc.
+</p>
+
+<h2>What do you do?</h2>
+<p>
+I hike mountains, build open-source WordPress software, and investigate the future of humanity through writing and ruminating.
+</p>
+
+<h2>Why?</h2>
+<p>
+Life is fascinating and compels me to explore, the transitory nature of time compels me to write, and I build open-source software to support my family and make the brain of humanity (the web) a better place to create and explore.
+</p>
+
+<h2>Recent thought or epiphany?</h2>
+<p>
+We should avoid the pointless activity of defining or describing ourselves; that's not our job. Our job is to be and do the things that we wish to be defined by.
+</p>
+
+<h2>What should we read?</h2>
+<p>
+Read Leo Babauta's tribute to Scott Dinsmore who passed away climbing Mt.  Kilimanjaro: <a href="http://zenhabits.net/scott/">http://zenhabits.net/scott/</a> and then read Scott Dinsmore's last blog post before he went on his trip: <a href="http://liveyourlegend.net/disconnect-to-connect/">http://liveyourlegend.net/disconnect-to-connect/</a>
+</p>
+
+<h2>URLs:</h2>
+<ul>
+
+	<li><a href="https://raam.org/">raam.org/</a></li>
+
+	<li><a href="http://raamdev.com">raamdev.com</a></li>
+
+	<li><a href="http://www.websharks-inc.com/">websharks-inc.com/</a></li>
+
+	<li><a href="https://twitter.com/raamdev">twitter.com/raamdev</a></li>
+
+	<li><a href="https://www.facebook.com/raamdev">facebook.com/raamdev</a></li>
+
+	<li><a href="https://plus.google.com/+raamdev/posts">plus.google.com/+raamdev/posts</a></li>
+
+	<li><a href="https://www.flickr.com/photos/raamdev/">flickr.com/photos/raamdev/</a></li>
+
+</ul>
+
+</section>
+</body>
+</html>

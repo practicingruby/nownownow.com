@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>/now profile: Nitin Khanna</title>
+  <style type="text/css">
+body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
+h1, h2, small { font-family: sans-serif; color: #900; }
+small { display: block; font-size: 0.8em; margin-bottom: 1em;}
+ul { margin: 0; padding: 0; }
+li { list-style-type: none; margin-bottom: 0.75em; }
+  </style>
+</head>
+<body>
+<section id="content">
+<h1>Nitin Khanna</h1>
+
+<h2><a href="/">/now</a>: <a href="http://www.nitinkhanna.com/now/">nitinkhanna.com/now</a></h2>
+
+<h2>Location:</h2>
+<p>
+Seattle
+WA
+United States
+</p>
+
+<h2>Professional title:</h2>
+<p>
+Software Engineer at F5 Networks. I'm technically a Network Engineer, but I love python too much to bother with wires. :P
+</p>
+
+<h2>What do you do?</h2>
+<p>
+I write what I can pull out of this mess of a brain and hope that someone somewhere will find coherence in that.
+</p>
+
+<h2>Why?</h2>
+<p>
+I am driven by a deep need to tell my story beyond my lifespan. It seems writing is the best way to do that.
+</p>
+
+<h2>Recent thought or epiphany?</h2>
+<p>
+Truth and dark chocolate are both bitter.
+</p>
+
+<h2>What should we read?</h2>
+<p>
+The Adventures of Tintin by Herge and Johnathan Livingston Seagull by Richard Bach. Both taught me a lot about life and gave me my sense of adventure.
+</p>
+
+<h2>URLs:</h2>
+<ul>
+
+	<li><a href="http://www.nitinkhanna.com/">nitinkhanna.com/</a></li>
+
+	<li><a href="https://github.com/nitinthewiz/">github.com/nitinthewiz/</a></li>
+
+	<li><a href="https://twitter.com/nitinthewiz">twitter.com/nitinthewiz</a></li>
+
+	<li><a href="https://instagram.com/nitinkhanna/">instagram.com/nitinkhanna/</a></li>
+
+</ul>
+
+</section>
+</body>
+</html>
