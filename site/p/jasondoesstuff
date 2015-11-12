@@ -7,17 +7,29 @@
   <title>/now profile: Jason Zook</title>
   <style type="text/css">
 body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
-h1, h2, small { font-family: sans-serif; color: #900; }
+h1 { font-size: 3em; font-weight: normal; }
+h2, small { font-family: sans-serif; color: #900; }
+h3 { font-size: 1.5em; line-height: 1.1em; font-weight: normal; }
 small { display: block; font-size: 0.8em; margin-bottom: 1em;}
 ul { margin: 0; padding: 0; }
 li { list-style-type: none; margin-bottom: 0.75em; }
+hr { margin: 4em 0; }
   </style>
 </head>
 <body>
 <section id="content">
+<h1>sites with a <a href="/">/now page</a>:</h1>
+<small>
+Follow <a href="https://twitter.com/NowNowNow">@NowNowNow</a> for updates.
+</small>
+
+<img src="/images/300/jasondoesstuff.jpg" width="300" height="300">
+
 <h1>Jason Zook</h1>
 
-<h2><a href="/">/now</a>: <a href="http://jasondoesstuff.com/now/">jasondoesstuff.com/now</a></h2>
+<h2><a href="http://jasondoesstuff.com/now/">jasondoesstuff.com/now</a></h2>
+
+<h3>“You don’t get what you don’t ask for.  It&#39;s weird to live in a culture so obsessed with becoming successful quickly when no one who is successful got there quickly.”</h3>
 
 <h2>Location:</h2>
 <p>
@@ -41,11 +53,6 @@ I help entrepreneurs take action in their lives and businesses.
 Through product creation, writing, and self-guineau-pigging, I help people learn from my experiences to build lives and businesses that feel congruent to who they are at their core.
 </p>
 
-<h2>Recent thought or epiphany?</h2>
-<p>
-You don’t get what you don’t ask for.  It's weird to live in a culture so obsessed with becoming successful quickly when no one who is successful got there quickly.
-</p>
-
 <h2>What should we read?</h2>
 <p>
 The Obstacle is the Way, by Ryan Holiday.  ReWork, by Jason Fried and David Heinemeier Hansson.
@@ -53,14 +60,204 @@ The Obstacle is the Way, by Ryan Holiday.  ReWork, by Jason Fried and David Hein
 
 <h2>URLs:</h2>
 <ul>
-
 	<li><a href="http://jasondoesstuff.com">jasondoesstuff.com</a></li>
-
 	<li><a href="https://twitter.com/iwearyourshirt">twitter.com/iwearyourshirt</a></li>
-
 	<li><a href="http://jasondoesstuff.com/now/">jasondoesstuff.com/now/</a></li>
-
 </ul>
+
+<hr>
+
+<h2>Browse other profiles:</h2>
+<ul id="shuffle">
+	<li><a href="jodywhitesides">Jody Whitesides</a></li>
+	<li><a href="calvincorreli">Calvin Correli</a></li>
+	<li><a href="wingtip">Scott E. Moore</a></li>
+	<li><a href="kahanjames">Kahan James</a></li>
+	<li><a href="kohanikin">Kohan Ikin</a></li>
+	<li><a href="mallettsbaymusic">Glory Reinstein</a></li>
+	<li><a href="gregorycain">Gregory Cain</a></li>
+	<li><a href="cathygrier">Cathy Grier</a></li>
+	<li><a href="nycsubwaygirl">Cathy Grier</a></li>
+	<li><a href="shakespeareconsultant">Emily Davis</a></li>
+	<li><a href="claude">Claude Strillo</a></li>
+	<li><a href="stevencravis">Steven Cravis</a></li>
+	<li><a href="montyharper">Monty Harper</a></li>
+	<li><a href="dvpolymedia">dv (aka Robert May)</a></li>
+	<li><a href="krichiemusic">Keith Richie</a></li>
+	<li><a href="azraelgroup">Tim McKenna</a></li>
+	<li><a href="jimmykeane">Jimmy Keane</a></li>
+	<li><a href="randyadamsmusic">Randy Adams</a></li>
+	<li><a href="patrickconway">Patrick Conway</a></li>
+	<li><a href="muz4now">Stan Stewart</a></li>
+	<li><a href="kevincarrelfooter">Kevin Carrel Footer</a></li>
+	<li><a href="rockandrollzen">Mark Hermann</a></li>
+	<li><a href="allisonpreisinger">Allison Preisinger</a></li>
+	<li><a href="jenniferashton">Jenn Ashton</a></li>
+	<li><a href="joshhaden">Josh Haden</a></li>
+	<li><a href="amirmotlagh">Amir Motlagh</a></li>
+	<li><a href="xxaxx">Claude Needham</a></li>
+	<li><a href="trailofsparks">Ryan Barrington Cox</a></li>
+	<li><a href="joescoffeefix">Joe Leonard</a></li>
+	<li><a href="cellojoe">Joey Chang</a></li>
+	<li><a href="gilles-snowcat">Gilles Snowcat</a></li>
+	<li><a href="joematzzie">Joe Matzzie</a></li>
+	<li><a href="christophersherrod">Chris Sherrod</a></li>
+	<li><a href="abcompany">Bruce Chenoweth</a></li>
+	<li><a href="justplainpaul">Paul Miller</a></li>
+	<li><a href="alfredmegally">Alfred Megally</a></li>
+	<li><a href="scottnesbitt">Scott Nesbitt</a></li>
+	<li><a href="ernohannink">Erno Hannink</a></li>
+	<li><a href="stammen">Karl Philip Lund</a></li>
+	<li><a href="mariabrophy">Maria Brophy</a></li>
+	<li><a href="foursides">James McCullough</a></li>
+	<li><a href="johngarvens">John Garvens</a></li>
+	<li><a href="fernandogros">Fernando Gros</a></li>
+	<li><a href="seanbonner">Sean Bonner</a></li>
+	<li><a href="mohitpawar">Mohit Pawar</a></li>
+	<li><a href="ilukac">Ivo Lukač</a></li>
+	<li><a href="zenhabits">Leo Babauta</a></li>
+	<li><a href="sendaiben">Ben Shearon</a></li>
+	<li><a href="nyveldt">Al Nyveldt</a></li>
+	<li><a href="quentinpain">Quentin Pain</a></li>
+	<li><a href="artofchange">Sukhneet Singh</a></li>
+	<li><a href="kmarsden">Kevin Marsden</a></li>
+	<li><a href="practicingdeveloper">Gregory Brown</a></li>
+	<li><a href="codyburleson">Cody Burleson</a></li>
+	<li><a href="mauromorales">Mauro Morales</a></li>
+	<li><a href="matthewkirk">Matt Kirk</a></li>
+	<li><a href="collegeinfogeek">Thomas Frank</a></li>
+	<li><a href="discussionsoftheway">Mike Reynolds</a></li>
+	<li><a href="raam">Raam Dev</a></li>
+	<li><a href="jubari">Bastian Halbach</a></li>
+	<li><a href="jamonholmgren">Jamon Holmgren</a></li>
+	<li><a href="kendallgiles">Kendall Giles</a></li>
+	<li><a href="whoschrishughes">Chris Hughes</a></li>
+	<li><a href="fabriq">Andy Richards</a></li>
+	<li><a href="patriciareiter">Patricia Reiter</a></li>
+	<li><a href="blakeboles">Blake Boles</a></li>
+	<li><a href="alexjerez">Alex Jerez</a></li>
+	<li><a href="worldinthepalm">Milan Balaban</a></li>
+	<li><a href="travishellstrom">Travis Hellstrom</a></li>
+	<li><a href="edicoespqp">Beatriz Alcobia</a></li>
+	<li><a href="paulksaunders">Paul Saunders</a></li>
+	<li><a href="austinkleon">Austin Kleon</a></li>
+	<li><a href="saurabh">Saurabh Sharma</a></li>
+	<li><a href="jeremydeprisco">Jeremy dePrisco</a></li>
+	<li><a href="salmajafri">Salma Jafri</a></li>
+	<li><a href="watchjudge">Rob McNelis</a></li>
+	<li><a href="dreallday">Dre Baldwin</a></li>
+	<li><a href="rmorabia">Radhika Morabia</a></li>
+	<li><a href="ryankoriya">Ryan Koriya</a></li>
+	<li><a href="bitonator">Mahadevan K</a></li>
+	<li><a href="natasha-rileynoah">Natasha Riley-Noah</a></li>
+	<li><a href="grantweherley">Grant Weherley</a></li>
+	<li><a href="therenmethod">Courtney Feider</a></li>
+	<li><a href="getmomentum">Jodi Womack</a></li>
+	<li><a href="keithkritselis">Keith Kritselis</a></li>
+	<li><a href="zoia">Roberto Zoia</a></li>
+	<li><a href="linkedin-makeover">Donna Serdula</a></li>
+	<li><a href="30daysguide">Fernando Dolores</a></li>
+	<li><a href="trysette">Trysette</a></li>
+	<li><a href="alexstrick">Alex Strick van Linschoten</a></li>
+	<li><a href="cedricwinterwolf">Cedric Douglas Clitheroe</a></li>
+	<li><a href="gunargessner">Gunar C. Gessner</a></li>
+	<li><a href="parabolasales">Jeff Bajorek</a></li>
+	<li><a href="frankieflowersmusic">Frankie Flowers</a></li>
+	<li><a href="jasondoesstuff">Jason Zook</a></li>
+	<li><a href="stuartchaffe">Stuart Chaffe</a></li>
+	<li><a href="yourcarolinarealtor">Melanie Colley</a></li>
+	<li><a href="busyweekends">Michelle</a></li>
+	<li><a href="wallethacks">Jim Wang</a></li>
+	<li><a href="geirman">Chris Geirman</a></li>
+	<li><a href="overthink">Ryan Carter</a></li>
+	<li><a href="superspicymedia">Mojca Marš</a></li>
+	<li><a href="staydecent">Adrian Unger</a></li>
+	<li><a href="luxagraf">Scott Gilbertson</a></li>
+	<li><a href="arcware">Dave Donaldson</a></li>
+	<li><a href="macavaney">Sean MacAvaney</a></li>
+	<li><a href="kennwilson">Kenn Wilson</a></li>
+	<li><a href="seansharp">Sean Sharp</a></li>
+	<li><a href="mikevardy">Mike Vardy</a></li>
+	<li><a href="wfa">Andy Willis</a></li>
+	<li><a href="andersensilva">Andersen Silva</a></li>
+	<li><a href="petra-wille">Petra Wille</a></li>
+	<li><a href="gergely">Gergely Imreh</a></li>
+	<li><a href="samuelbosch">Samuel Bosch</a></li>
+	<li><a href="chrisgoosman">Chris Goosman</a></li>
+	<li><a href="andy-bell">Andy Bell</a></li>
+	<li><a href="kerrisharp">Kerri Mark Sharp</a></li>
+	<li><a href="teknostatik">Andy Ferguson</a></li>
+	<li><a href="quantumtea">Alison Hawke</a></li>
+	<li><a href="gregalbritton">Greg Albritton</a></li>
+	<li><a href="joshpitzalis">Josh Pitzalis</a></li>
+	<li><a href="riddleworks">Dan Palladino</a></li>
+	<li><a href="tncpacificconsulting">Tess Newton Cain</a></li>
+	<li><a href="katrinagriggsaito">Katrina Grigg-Saito</a></li>
+	<li><a href="buildmyonlinestore">Terry Lin</a></li>
+	<li><a href="reedmaniac">Paul Burdick</a></li>
+	<li><a href="rpflynn">Ryan P. Flynn</a></li>
+	<li><a href="chaitpress">Chaitanya</a></li>
+	<li><a href="jjude">Joseph Jude</a></li>
+	<li><a href="toocooltshirtquilts">Andrea Funk</a></li>
+	<li><a href="nitinkhanna">Nitin Khanna</a></li>
+	<li><a href="nefelophagia">Nefelophagia</a></li>
+	<li><a href="prophet-of-bloom">India Flint</a></li>
+	<li><a href="adamwestbrook">Adam Westbrook</a></li>
+	<li><a href="ajayrajani">Ajay Rajani</a></li>
+	<li><a href="sushaantu">Sushaantu</a></li>
+	<li><a href="ar3">Andrew Robinson</a></li>
+	<li><a href="blitzprog">Eduard Urbach</a></li>
+	<li><a href="baty">Jack Baty</a></li>
+	<li><a href="jonrhodes">Jon Rhodes</a></li>
+	<li><a href="lewiswalsh">Lewis Walsh</a></li>
+	<li><a href="creatrixtiara">Creatrix Tiara</a></li>
+	<li><a href="robconery">Rob Conery</a></li>
+	<li><a href="tomcritchlow">Tom Critchlow</a></li>
+	<li><a href="marcjenkins">Marc Jenkins</a></li>
+	<li><a href="bealers">Darren Beale</a></li>
+	<li><a href="stuffjolikes">Jo Rhodes</a></li>
+	<li><a href="thewanderingminimalist">James Goin</a></li>
+	<li><a href="aaron">Aaron Vegh</a></li>
+	<li><a href="manton">Manton Reece</a></li>
+	<li><a href="cwinters">Chris Winters</a></li>
+	<li><a href="sendsteven">Steven Irby</a></li>
+	<li><a href="dharma-mirror">Hanz Geeratz</a></li>
+	<li><a href="bobmartens">Bob Martens</a></li>
+	<li><a href="ajm188">Andrew Mason</a></li>
+	<li><a href="jkarger">Jan Karger</a></li>
+	<li><a href="spra">Sallie Boyce</a></li>
+	<li><a href="marclittlemore">Marc Littlemore</a></li>
+	<li><a href="trueheart78">Josh Mills</a></li>
+	<li><a href="notkindacool">Curtis James</a></li>
+	<li><a href="andrlik">Daniel Andrlik</a></li>
+	<li><a href="casabona">Joseph Casabona</a></li>
+	<li><a href="danielgroves">Daniel Groves</a></li>
+	<li><a href="laramcpherson">Lara McPherson</a></li>
+	<li><a href="kylestewart">Kyle Stewart</a></li>
+	<li><a href="merviemilia">Mervi Emilia</a></li>
+</ul>
+<script>
+var ul = document.getElementById('shuffle');
+var lis = ul.getElementsByTagName('li');
+var lia = [];
+var l = lis.length - 1;
+for(l; l >= 0; l--) {
+	lia.push(ul.removeChild(lis[l]));
+}
+var i = lia.length;
+while (--i) {
+	var j = Math.floor(Math.random() * (i + 1)),
+		tmpi = lia[i],
+		tmpj = lia[j];
+	lia[i] = tmpj;
+	lia[j] = tmpi;
+}
+i = lia.length;
+while (--i) {
+	ul.appendChild(lia.pop());
+}
+</script>
+
 
 </section>
 </body>
