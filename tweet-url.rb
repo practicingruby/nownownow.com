@@ -36,10 +36,3 @@ ps.transaction do
 	ps[:log] << {id: id, url: url, when: Time.now()}
 end
 
-__END__
-ps.transaction(true) do
-	puts "HISTORY:"
-	ps[:log].each do |x|
-		puts "%d\t%s\t%s" % [x[:id], x[:when], x[:url]]
-	end
-end
