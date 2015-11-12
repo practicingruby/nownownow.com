@@ -7,17 +7,31 @@
   <title>/now profile: <%=h @person['name'] %></title>
   <style type="text/css">
 body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
-h1, h2, small { font-family: sans-serif; color: #900; }
+h1 { font-size: 3em; font-weight: normal; }
+h2, small { font-family: sans-serif; color: #900; }
+h3 { font-size: 1.5em; line-height: 1.1em; font-weight: normal; }
 small { display: block; font-size: 0.8em; margin-bottom: 1em;}
 ul { margin: 0; padding: 0; }
 li { list-style-type: none; margin-bottom: 0.75em; }
+hr { margin: 4em 0; }
   </style>
 </head>
 <body>
 <section id="content">
+<h1>sites with a <a href="/">/now page</a>:</h1>
+<small>
+Follow <a href="https://twitter.com/NowNowNow">@NowNowNow</a> for updates.
+</small>
+
+<% if @image -%>
+<img src="<%= @image %>" width="300" height="300">
+<% end -%>
+
 <h1><%=h @person['name'] %></h1>
 
-<h2><a href="/">/now</a>: <a href="<%= @now['long'] %>"><%= @now['short'] %></a></h2>
+<h2><a href="<%= @now['long'] %>"><%= @now['short'] %></a></h2>
+
+<h3>“<%= autolink(h(@profile['thought'])) %>”</h3>
 
 <h2>Location:</h2>
 <p>
@@ -28,35 +42,40 @@ li { list-style-type: none; margin-bottom: 0.75em; }
 
 <h2>Professional title:</h2>
 <p>
-<%= @profile['title'].autolink %>
+<%= autolink(h(@profile['title'])) %>
 </p>
 
 <h2>What do you do?</h2>
 <p>
-<%= @profile['liner'].autolink %>
+<%= autolink(h(@profile['liner'])) %>
 </p>
 
 <h2>Why?</h2>
 <p>
-<%= @profile['why'].autolink %>
-</p>
-
-<h2>Recent thought or epiphany?</h2>
-<p>
-<%= @profile['thought'].autolink %>
+<%= autolink(h(@profile['why'])) %>
 </p>
 
 <h2>What should we read?</h2>
 <p>
-<%= @profile['red'].autolink %>
+<%= autolink(h(@profile['red'])) %>
 </p>
 
 <h2>URLs:</h2>
 <ul>
-<% @urls.each do |url| %>
+<% @urls.each do |url| -%>
 	<li><a href="<%= url %>"><%= url.gsub(/^https?:\/\//, '').gsub(/^www\./, '') %></a></li>
-<% end %>
+<% end -%>
 </ul>
+
+<hr>
+
+<h2>Browse other profiles:</h2>
+<ul id="shuffle">
+<% @profiles.each do |p| -%>
+	<li><a href="<%= p['tiny'] %>"><%=h p['name'] %></a></li>
+<% end -%>
+</ul>
+<%= @shuffle %>
 
 </section>
 </body>
