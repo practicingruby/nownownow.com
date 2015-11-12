@@ -9,7 +9,8 @@
   <meta name="author" content="Derek Sivers">
   <style type="text/css">
 body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
-h1, h2, small { font-family: sans-serif; color: #900; }
+h1 { font-size: 3em; font-weight: normal; }
+h2, small { font-family: sans-serif; color: #900; }
 small { display: block; font-size: 0.8em; margin-bottom: 1em;}
 ul { margin: 0; padding: 0; }
 li { list-style-type: none; margin-bottom: 0.75em; }
@@ -22,7 +23,8 @@ li { list-style-type: none; margin-bottom: 0.75em; }
 Re-load page to shuffle order.
 Follow <a href="https://twitter.com/NowNowNow">@NowNowNow</a> for updates.
 </small>
-<ul>
+
+<ul id="shuffle">
 <li><a href="http://30daysguide.wordpress.com/now">30daysguide.com/now</a> (<a href="p/30daysguide">+</a>)</li>
 <li><a href="http://aaron.vegh.ca/now/">aaron.vegh.ca/now</a> (<a href="p/aaron">+</a>)</li>
 <li><a href="http://abcompany.com/now/">abcompany.com/now</a> (<a href="p/abcompany">+</a>)</li>
@@ -265,13 +267,8 @@ Follow <a href="https://twitter.com/NowNowNow">@NowNowNow</a> for updates.
 <li><a href="http://zenhabits.net/now/">zenhabits.net/now</a> (<a href="p/zenhabits">+</a>)</li>
 <li><a href="http://zoia.org/now">zoia.org/now</a> (<a href="p/zoia">+</a>)</li>
 </ul>
-<h2>Total count: 241</h2>
-<p>To add one, email <a href="http://sivers.org/">me</a> at <a href="mailto:derek@sivers.org">derek@sivers.org</a></p>
-<small>Last update: 2015-11-11 18:42:59 +1300</small>
-<small><a href="https://github.com/50pop/nownownow.com">See the code</a> that makes this site.</small>
-</section>
 <script>
-var ul = document.getElementsByTagName('ul')[0];
+var ul = document.getElementById('shuffle');
 var lis = ul.getElementsByTagName('li');
 var lia = [];
 var l = lis.length - 1;
@@ -291,5 +288,11 @@ while (--i) {
 	ul.appendChild(lia.pop());
 }
 </script>
+
+<h2>Total count: 241</h2>
+<p>To add one, email <a href="http://sivers.org/">me</a> at <a href="mailto:derek@sivers.org">derek@sivers.org</a></p>
+<small>Last update: 2015-11-12 13:38:39 +1300</small>
+<small><a href="https://github.com/50pop/nownownow.com">See the code</a> that makes this site.</small>
+</section>
 </body>
 </html>
