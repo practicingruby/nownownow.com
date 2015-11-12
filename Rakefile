@@ -8,10 +8,8 @@ def h(str)
 	ERB::Util.html_escape(str)
 end
 
-class String
-	def autolink
-		self.gsub(/(http\S*)/, '<a href="\1">\1</a>')
-	end
+def autolink(str)
+	str.gsub(/(http\S*)/, '<a href="\1">\1</a>')
 end
 
 desc 'visit short URLs to get real/long URL'
@@ -48,9 +46,13 @@ end
 desc 'make profile pages'
 task :profiles do
 	template = File.read('templates/profile.erb')
-	# for each person_id that has profile info...
-	res = DB.exec("SELECT person_id FROM peeps.stats WHERE statkey='now-title'")
-	res.map{|r| r['person_id'].to_i}.each do |person_id|
+	@shuffle = File.read('templates/shuffle.js')
+	# get everyone with profile info
+	@profiles = DB.exec("SELECT s.person_id, n.tiny, p.name FROM peeps.stats s
+		JOIN now.urls n ON s.person_id=n.person_id
+		JOIN peeps.people p ON s.person_id=p.id
+		WHERE s.statkey='now-title' ORDER BY s.person_id")
+	@profiles.map{|r| r['person_id'].to_i}.each do |person_id|
 		puts person_id
 		# get person info
 		res = DB.exec("SELECT p.name, p.city, p.state, c.name AS country
@@ -60,9 +62,12 @@ task :profiles do
 		# get now.url
 		res = DB.exec("SELECT tiny, short, long FROM now.urls WHERE person_id=#{person_id}")
 		@now = res[0]
+		# image either img src path or false
+		@image = '/images/300/%s.jpg' % @now['tiny']
+		@image = false unless File.exist?('site%s' % @image)
 		# get other urls
 		res = DB.exec("SELECT url FROM peeps.urls WHERE person_id=#{person_id}
-			ORDER BY main DESC NULLS LAST, id")
+			AND url NOT LIKE '%www.cdbaby.com%' ORDER BY main DESC NULLS LAST, id")
 		@urls = res.map{|r| r['url']}
 		# get profile answers
 		res = DB.exec("SELECT statkey, statvalue FROM peeps.stats
@@ -74,7 +79,7 @@ task :profiles do
 		end
 		# merge into template, saving as tiny
 		File.open('site/p/' + @now['tiny'], 'w') do |f|
-			f.puts ERB.new(template).result
+			f.puts ERB.new(template, nil, '-').result
 		end
 	end
 end
@@ -92,6 +97,7 @@ task :index do
 		end
 		@urls << url
 	end
+	@shuffle = File.read('templates/shuffle.js')
 	File.open('site/index.html', 'w') do |f|
 		f.puts ERB.new(File.read('templates/index.erb'), nil, '>').result
 	end
