@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>/now profile: Jodi Womack</title>
-  <style type="text/css">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jodi Womack : Now Now Now profile</title>
+<style type="text/css">
 body { font-family: Georgia, serif; font-size: 18px; padding: 0 5px; margin: 0 auto; max-width: 40em; line-height: 1.6em; }
 h1 { font-size: 3em; font-weight: normal; }
 h2, small { font-family: sans-serif; color: #900; }
@@ -14,7 +14,18 @@ small { display: block; font-size: 0.8em; margin-bottom: 1em;}
 ul { margin: 0; padding: 0; }
 li { list-style-type: none; margin-bottom: 0.75em; }
 hr { margin: 4em 0; }
-  </style>
+</style>
+<meta property="og:title" content="Jodi Womack">
+<meta name="twitter:title" content="Jodi Womack">
+<meta property="og:description" content="profile of Jodi Womack">
+<meta name="twitter:description" content="profile of Jodi Womack">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://nownownow.com/p/getmomentum.co/now">
+<meta property="og:image" content="http://nownownow.com/images/300/getmomentum.jpg">
+<meta name="twitter:image" content="http://nownownow.com/images/300/getmomentum.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nownownow">
+<meta name="twitter:creator" content="@nownownow">
 </head>
 <body>
 <section id="content">
@@ -60,8 +71,8 @@ Your Best Just Got Better: Work Smarter, Think Bigger, Make More. by Jason Womac
 
 <h2>URLs:</h2>
 <ul>
-	<li><a href="http://getmomentum.co/">getmomentum.co/</a></li>
-	<li><a href="http://nomorenylons.com/">nomorenylons.com/</a></li>
+	<li><a href="http://getmomentum.co/">getmomentum.co</a></li>
+	<li><a href="http://nomorenylons.com/">nomorenylons.com</a></li>
 </ul>
 
 <hr>
@@ -75,8 +86,8 @@ Your Best Just Got Better: Work Smarter, Think Bigger, Make More. by Jason Womac
 	<li><a href="kohanikin">Kohan Ikin</a></li>
 	<li><a href="mallettsbaymusic">Glory Reinstein</a></li>
 	<li><a href="gregorycain">Gregory Cain</a></li>
-	<li><a href="cathygrier">Cathy Grier</a></li>
 	<li><a href="nycsubwaygirl">Cathy Grier</a></li>
+	<li><a href="cathygrier">Cathy Grier</a></li>
 	<li><a href="shakespeareconsultant">Emily Davis</a></li>
 	<li><a href="claude">Claude Strillo</a></li>
 	<li><a href="stevencravis">Steven Cravis</a></li>
@@ -139,6 +150,7 @@ Your Best Just Got Better: Work Smarter, Think Bigger, Make More. by Jason Womac
 	<li><a href="travishellstrom">Travis Hellstrom</a></li>
 	<li><a href="edicoespqp">Beatriz Alcobia</a></li>
 	<li><a href="paulksaunders">Paul Saunders</a></li>
+	<li><a href="hboon">Hwee-Boon Yar</a></li>
 	<li><a href="austinkleon">Austin Kleon</a></li>
 	<li><a href="saurabh">Saurabh Sharma</a></li>
 	<li><a href="jeremydeprisco">Jeremy dePrisco</a></li>
@@ -146,10 +158,12 @@ Your Best Just Got Better: Work Smarter, Think Bigger, Make More. by Jason Womac
 	<li><a href="watchjudge">Rob McNelis</a></li>
 	<li><a href="dreallday">Dre Baldwin</a></li>
 	<li><a href="rmorabia">Radhika Morabia</a></li>
+	<li><a href="wpexpert">Frederic Sune</a></li>
 	<li><a href="ryankoriya">Ryan Koriya</a></li>
 	<li><a href="bitonator">Mahadevan K</a></li>
 	<li><a href="natasha-rileynoah">Natasha Riley-Noah</a></li>
 	<li><a href="grantweherley">Grant Weherley</a></li>
+	<li><a href="lnz">Lenz Gschwendtner</a></li>
 	<li><a href="therenmethod">Courtney Feider</a></li>
 	<li><a href="getmomentum">Jodi Womack</a></li>
 	<li><a href="keithkritselis">Keith Kritselis</a></li>
